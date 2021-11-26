@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: PunithMohan/helloworld-custom-action@main
+    - uses: PunithMohan/helloworld-custom-action@v1.2
       with:
         commit-count: '5'
             
