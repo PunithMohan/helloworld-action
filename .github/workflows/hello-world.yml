@@ -13,5 +13,5 @@ jobs:
     steps:
     - uses: PunithMohan/helloworld-custom-action@v1.1
       with:
-        commit-count: '5'
+        CommitsCounts: '5'
             
