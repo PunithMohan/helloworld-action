@@ -3,7 +3,3 @@ Learn more with the egghead.io course  [Create a New Github Action to Automate C
 added newline for test
 
 added another line for test
-\fhfdd\gdhgfh\\\ghgf
-
-
-ghfg
