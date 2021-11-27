@@ -9,13 +9,15 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    permissions:
+      contents: read
+      pull-requests: write
     steps:
     - uses: PunithMohan/helloworld-custom-action@main
       with:
         commit-count: '5'
         LabelName: 'LargePRs'
         Comments: 'The PR should have less than 10 commits'
-        GITHUB_TOKEN: '${{ secrets.CUSTOM_ACTION_SECRETE }}'
-        PR_Number: '${{ github.event.pull_request.number }}'
+        GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+        PR_Number: "${{ github.event.pull_request.number }}"
             
