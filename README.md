@@ -2,18 +2,7 @@ Learn more with the egghead.io course  [Create a New Github Action to Automate C
 
 added newline for test
 
-
-hgvjhcghk
-rtert
- fb, bcv
- bvbvcbdgfnfb
-
-
 added another line for test
-
-
-
-
 
 added test line for test
 
