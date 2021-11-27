@@ -4,7 +4,10 @@ on:
   push:
     branches: [ main ]
   pull_request:
-    branches: [ main ]
+    branches: 
+     - main
+     - PR_test
+
 env:
   GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
   PR_Number: ${{ github.event.pull_request.number }}
